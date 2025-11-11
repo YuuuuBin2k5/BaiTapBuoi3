@@ -47,7 +47,6 @@ public class User implements Serializable {
     public String getHeardFrom() { return heardFrom; }
     public void setHeardFrom(String heardFrom) { this.heardFrom = heardFrom; }
 
-    // Lưu ý: Checkbox chỉ gửi giá trị "on" nếu được chọn. Chúng ta xử lý logic này trong Servlet.
     // Trong Model, chúng ta chỉ cần String để lưu giá trị.
     public String getContactOK() { return contactOK; }
     public void setContactOK(String contactOK) { this.contactOK = contactOK; }
